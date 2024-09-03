@@ -52,8 +52,8 @@ namespace HDT_BGrank
 
         public void OnUpdate()
         {
-            rank.OnUpdate();
-            leaderBoardPanel.OnUpdate(rank);
+            rank?.OnUpdate();
+            leaderBoardPanel?.OnUpdate(rank);
         }
 
         private void CreateMenuItem()
